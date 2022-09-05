@@ -1,0 +1,20 @@
+{
+    "description": "StrapiBundle ease the Strapi integration into your Symfony project",
+    "name": "webmamba/strapi-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/framework-bundle": "^6.1"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "Webmamba\\Bundle\\StrapiBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "WebMamba\\Bundle\\StrapiBundle\\Tests\\": "tests/" }
+    }
+}
